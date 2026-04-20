@@ -87,7 +87,7 @@ All controls inherit from the `Module` base class, providing a unified interface
 | 控件名 | 说明 | 典型场景 |
 |--------|------|----------|
 | `Label(Module)` | 像素风格文本标签，支持多行文本与自定义字体 | 静态文本展示、标题、说明文字 |
-| `ImgLabel(Module)` | 图片展示标签，支持像素风图片渲染 | 图标展示、背景图、预览图 |
+| `ImgLabel(Module)` | 图片展示标签，自适应缩放图像 | 图标展示、背景图、预览图 |
 | `Entry(Module)` | 单行输入框，支持像素风边框与输入限制 | 用户名/密码输入、单行文本录入 |
 | `Text(Module)` | 多行文本框，支持滚动条与文本编辑 | 大段文本输入、日志展示 |
 | `MarkdownText(Module)` | Markdown渲染文本框，支持像素风样式适配 | 帮助文档、富文本说明 |
@@ -95,7 +95,7 @@ All controls inherit from the `Module` base class, providing a unified interface
 | Widget Name | Description | Typical Scenarios |
 |-------------|-------------|-------------------|
 | `Label(Module)` | Pixel-style text label, supports multi-line text and custom fonts | Static text display, titles, explanatory text |
-| `ImgLabel(Module)` | Image display label, supports pixel-style image rendering | Icon display, background images, preview images |
+| `ImgLabel(Module)` | Image display label, adaptive scaling of imagesg | Icon display, background images, preview images |
 | `Entry(Module)` | Single-line input box with pixel-style borders and input restrictions | Username/password input, single-line text entry |
 | `Text(Module)` | Multi-line text box with scroll bar and text editing | Large text input, log display |
 | `MarkdownText(Module)` | Markdown rendering text box with pixel-style adaptation | Help documents, rich text descriptions |
@@ -106,7 +106,7 @@ All controls inherit from the `Module` base class, providing a unified interface
 |--------|------|----------|
 | `Button(Module)` | 像素风格按钮，支持悬停/点击状态切换 | 提交、确认、取消等操作按钮 |
 | `CheckBox(Module)` | 复选框控件，支持多选项选择 | 多选配置项、同意协议勾选 |
-| `OptionBox(Module)` | 互斥单选框，同一组内仅可选择一项 | 单选配置项、模式选择 |
+| `OptionBox(Module)` | 互斥单选框，同一组内仅可选择一项 | 单选配置项 |
 | `ChoiceBox(Module)` | 下拉选择框，支持自定义选项列表 | 下拉选项选择、分类筛选 |
 | `ScrollBar(Module)` | 滚动条控件，支持垂直/水平滚动 | 长文本/列表的滚动控制 |
 
@@ -114,7 +114,7 @@ All controls inherit from the `Module` base class, providing a unified interface
 |-------------|-------------|-------------------|
 | `Button(Module)` | Pixel-style button supporting hover/click state switching | Operation buttons such as submit, confirm, cancel |
 | `CheckBox(Module)` | Checkbox control supporting multi-option selection | Multi-select configuration items, agreement confirmation check |
-| `OptionBox(Module)` | Mutually exclusive radio box, only one option can be selected in the same group | Single-select configuration items, mode selection |
+| `OptionBox(Module)` | Mutually exclusive radio box, only one option can be selected in the same group | Single-select configuration items |
 | `ChoiceBox(Module)` | Drop-down selection box supporting custom option lists | Drop-down option selection, category filtering |
 | `ScrollBar(Module)` | Scroll bar control supporting vertical/horizontal scrolling | Scrolling control for long text/lists |
 
@@ -151,12 +151,12 @@ A loading state display control without clear progress:
 像素风格的表格控件，支持数据展示与编辑：
 - 支持多列数据、表头自定义
 - 单元格文本对齐、样式配置
-- 支持行/列点击事件绑定、排序功能
+- 支持行/列点击事件绑定
 
 A pixel-style table control supporting data display and editing:
 - Supports multi-column data and custom table headers
 - Cell text alignment and style configuration
-- Supports row/column click event binding and sorting functions
+- Supports row/column click event binding
 
 ---
 
