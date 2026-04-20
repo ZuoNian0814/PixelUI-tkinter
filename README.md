@@ -1,6 +1,8 @@
 # PixelUI-tkinter - Customized Pixel UI Based on tkinter
 Customized Pixel UI Based on tkinter / 基于tkinter的定制化像素UI
 
+<img src="workflow_example.png" alt="PixelUI Workflow" width="600">
+
 这是一套基于原生 Tkinter 封装的**像素风格**UI控件库，通过统一的基类 `Module` 实现了高可复用、易扩展的组件体系，包含窗口系统、基础交互控件、数据展示组件、工作流组件等，所有控件均遵循一致的设计规范，轻松构建复古像素风桌面应用。
 
 This is a pixel-style UI control library encapsulated based on native Tkinter. It implements a highly reusable and easily extensible component system through the unified base class `Module`, including window systems, basic interactive controls, data display components, workflow components, etc. All controls follow consistent design specifications, making it easy to build retro pixel-style desktop applications.
