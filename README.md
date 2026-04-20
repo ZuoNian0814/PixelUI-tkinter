@@ -2,6 +2,7 @@
 Customized Pixel UI Based on tkinter / 基于tkinter的定制化像素UI
 
 开发环境为windows11，不确定在其他系统中是否会出现布局错误，并且由于tkinter通过文件加载字体比较麻烦，这里采用的是直接从系统字体中读取，所以需要您手动安装这些字体依赖：
+The development environment is Windows 11, and it is uncertain whether layout errors may occur in other systems. Additionally, due to the difficulty of loading fonts through files in tkinter, we use direct reading from system fonts. Therefore, you need to manually install these font dependencies:
 - fusion-pixel-12px-monospaced-zh_hans.ttf
 - Minecraft AE.ttf
 
