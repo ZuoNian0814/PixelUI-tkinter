@@ -1,6 +1,10 @@
 # PixelUI-tkinter - Customized Pixel UI Based on tkinter
 Customized Pixel UI Based on tkinter / 基于tkinter的定制化像素UI
 
+开发环境为windows11，不确定在其他系统中是否会出现布局错误，并且由于tkinter通过文件加载字体比较麻烦，这里采用的是直接从系统字体中读取，所以需要您手动安装这些字体依赖：
+- fusion-pixel-12px-monospaced-zh_hans.ttf
+- Minecraft AE.ttf
+
 <img src="workflow_example.png" alt="PixelUI Workflow" width="600">
 
 这是一套基于原生 Tkinter 封装的**像素风格**UI控件库，通过统一的基类 `Module` 实现了高可复用、易扩展的组件体系，包含窗口系统、基础交互控件、数据展示组件、工作流组件等，所有控件均遵循一致的设计规范，轻松构建复古像素风桌面应用。
